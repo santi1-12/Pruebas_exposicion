@@ -1,0 +1,17 @@
+{
+  "name": "demo-istanbul",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "test": "mocha",
+  "coverage": "nyc mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.7.2",
+    "nyc": "^17.1.0"
+  }
+}
